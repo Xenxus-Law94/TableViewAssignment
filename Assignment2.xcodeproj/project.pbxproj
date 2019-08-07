@@ -12,6 +12,8 @@
 		DB4BBAF422F977380020BA49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4BBAF222F977380020BA49 /* Main.storyboard */; };
 		DB4BBAF622F977390020BA49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB4BBAF522F977390020BA49 /* Assets.xcassets */; };
 		DB4BBAF922F977390020BA49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4BBAF722F977390020BA49 /* LaunchScreen.storyboard */; };
+		DB4BBB0222F98A250020BA49 /* FriendFollowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4BBB0022F98A250020BA49 /* FriendFollowTableViewCell.swift */; };
+		DB4BBB0322F98A250020BA49 /* FriendFollowTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB4BBB0122F98A250020BA49 /* FriendFollowTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DB4BBAF522F977390020BA49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB4BBAF822F977390020BA49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB4BBAFA22F977390020BA49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB4BBB0022F98A250020BA49 /* FriendFollowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendFollowTableViewCell.swift; sourceTree = "<group>"; };
+		DB4BBB0122F98A250020BA49 /* FriendFollowTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendFollowTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				DB4BBAF522F977390020BA49 /* Assets.xcassets */,
 				DB4BBAF722F977390020BA49 /* LaunchScreen.storyboard */,
 				DB4BBAFA22F977390020BA49 /* Info.plist */,
+				DB4BBB0022F98A250020BA49 /* FriendFollowTableViewCell.swift */,
+				DB4BBB0122F98A250020BA49 /* FriendFollowTableViewCell.xib */,
 			);
 			path = Assignment2;
 			sourceTree = "<group>";
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB4BBB0322F98A250020BA49 /* FriendFollowTableViewCell.xib in Resources */,
 				DB4BBAF922F977390020BA49 /* LaunchScreen.storyboard in Resources */,
 				DB4BBAF622F977390020BA49 /* Assets.xcassets in Resources */,
 				DB4BBAF422F977380020BA49 /* Main.storyboard in Resources */,
@@ -137,6 +144,7 @@
 			files = (
 				DB4BBAF122F977380020BA49 /* ViewController.swift in Sources */,
 				DB4BBAEF22F977380020BA49 /* AppDelegate.swift in Sources */,
+				DB4BBB0222F98A250020BA49 /* FriendFollowTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
